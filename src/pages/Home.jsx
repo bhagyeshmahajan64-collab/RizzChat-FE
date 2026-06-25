@@ -8,7 +8,7 @@ import { FiSend } from "react-icons/fi";
 import { RiZzzFill } from "react-icons/ri";
 import { io } from "socket.io-client";
 
-let socket = io("http://localhost:3000/");
+let socket = io("/");
 
 function Home(){
 
