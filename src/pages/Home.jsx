@@ -8,7 +8,7 @@ import { FiSend } from "react-icons/fi";
 import { RiZzzFill } from "react-icons/ri";
 import { io } from "socket.io-client";
 
-let socket = io("/");
+let socket = io("https://rizzchat-be-bkbg.onrender.com");
 
 function Home(){
 
